@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "yourprojectsname",
-    "slug": "yourprojectsname",
-    "scheme": "yourprojectsname",
+    "name": "frw-rn",
+    "slug": "frw-rn",
+    "scheme": "frw-rn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/86bf55f2-7214-4935-bce9-14d6355bb809"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -33,7 +34,25 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-router"
-    ]
+      "expo-router",
+      [
+        "expo-updates",
+        {
+          "username": "caosbad"
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "86bf55f2-7214-4935-bce9-14d6355bb809"
+      }
+    },
+    "owner": "caosbad",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
   }
 }
