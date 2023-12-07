@@ -34,6 +34,7 @@
     "@manypkg/cli": "^0.19.1",
     "check-dependency-version-consistency": "^3.0.3",
     "eslint": "^8.21.0",
+    "expo": "^49.0.21",
     "expo-web-browser": "~12.3.2",
     "glob": "7.2.0",
     "node-gyp": "^9.3.1",
